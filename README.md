@@ -46,7 +46,7 @@ accessible by running:
 python -m bal_xilinx.tools.pin 
 ``` 
 
-The documentation for the pin tool can be accessed by running it with the `-h`.
+The documentation for the pin tool can be accessed by running it with the `-h` flag.
 
 ## Methodology
 
