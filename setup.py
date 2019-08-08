@@ -8,7 +8,8 @@ setup(
         "bal_xilinx",
         "bal_xilinx.analyzers",
         "bal_xilinx.converters",
-        "bal_xilinx.modifiers"
+        "bal_xilinx.modifiers",
+        "bal_xilinx.tools"
     ],
     install_requires=[
         "bal",

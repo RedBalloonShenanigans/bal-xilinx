@@ -1,19 +1,15 @@
-bal\_xilinx package
+bal\_xilinx
 ===================
-
-Subpackages
------------
 
 .. toctree::
 
    bal_xilinx.analyzers
    bal_xilinx.converters
    bal_xilinx.modifiers
+   bal_xilinx.tools
 
-Submodules
-----------
 
-bal\_xilinx.context module
+bal\_xilinx.context
 --------------------------
 
 .. automodule:: bal_xilinx.context
@@ -21,7 +17,7 @@ bal\_xilinx.context module
    :undoc-members:
    :show-inheritance:
 
-bal\_xilinx.data\_model module
+bal\_xilinx.data\_model
 ------------------------------
 
 .. automodule:: bal_xilinx.data_model
@@ -29,7 +25,7 @@ bal\_xilinx.data\_model module
    :undoc-members:
    :show-inheritance:
 
-bal\_xilinx.defaults module
+bal\_xilinx.defaults
 ---------------------------
 
 .. automodule:: bal_xilinx.defaults
@@ -37,19 +33,10 @@ bal\_xilinx.defaults module
    :undoc-members:
    :show-inheritance:
 
-bal\_xilinx.format module
+bal\_xilinx.format
 -------------------------
 
 .. automodule:: bal_xilinx.format
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-Module contents
----------------
-
-.. automodule:: bal_xilinx
    :members:
    :undoc-members:
    :show-inheritance:

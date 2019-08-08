@@ -1,10 +1,7 @@
-bal\_xilinx.analyzers package
+bal\_xilinx.analyzers
 =============================
 
-Submodules
-----------
-
-bal\_xilinx.analyzers.device\_analyzer module
+bal\_xilinx.analyzers.device\_analyzer
 ---------------------------------------------
 
 .. automodule:: bal_xilinx.analyzers.device_analyzer
@@ -12,7 +9,7 @@ bal\_xilinx.analyzers.device\_analyzer module
    :undoc-members:
    :show-inheritance:
 
-bal\_xilinx.analyzers.encryption\_analyzer module
+bal\_xilinx.analyzers.encryption\_analyzer
 -------------------------------------------------
 
 .. automodule:: bal_xilinx.analyzers.encryption_analyzer
@@ -20,19 +17,10 @@ bal\_xilinx.analyzers.encryption\_analyzer module
    :undoc-members:
    :show-inheritance:
 
-bal\_xilinx.analyzers.visualizer\_analyzer module
+bal\_xilinx.analyzers.visualizer\_analyzer
 -------------------------------------------------
 
 .. automodule:: bal_xilinx.analyzers.visualizer_analyzer
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-Module contents
----------------
-
-.. automodule:: bal_xilinx.analyzers
    :members:
    :undoc-members:
    :show-inheritance:
