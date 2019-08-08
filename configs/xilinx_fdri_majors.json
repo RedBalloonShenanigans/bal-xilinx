@@ -1,0 +1,191 @@
+[
+    {
+        "name": "L_CLB",
+        "frame_size": 130,
+        "frame_count": 30,
+        "frame_descriptions": [
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Logic Switchbox",
+            "Logic Switchbox",
+            "Logic Switchbox",
+            "Logic Switchbox",
+            "Logic Switchbox",
+            "Logic Switchbox",
+            "Logic Switchbox",
+            "Logic Switchbox",
+            "Other Switches & Settings",
+            "LUT D and B Equations",
+            "N/A",
+            "LUT C and A equations",
+            "N/A",
+            "Mux Settings",
+            "LUT C and A equations (X)",
+            "N/A",
+            "LUT D and B equations (X)",
+            "N/A"
+        ]
+    },
+    {
+        "name": "M_CLB",
+        "frame_size": 130,
+        "frame_count": 31,
+        "frame_descriptions": [
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Directional Wire Switchbox",
+            "Logic Switchbox",
+            "Logic Switchbox",
+            "Logic Switchbox",
+            "Logic Switchbox",
+            "Logic Switchbox",
+            "Logic Switchbox",
+            "Logic Switchbox",
+            "Logic Switchbox",
+            "Other Switches & Settings",
+            "LUT D and B Equations",
+            "N/A",
+            "Settings RAM mode",
+            "LUT C and A equations",
+            "N/A",
+            "Mux Settings",
+            "LUT C and A equations (X)",
+            "N/A",
+            "LUT D and B equations (X)",
+            "N/A"
+        ]
+    },
+    {
+        "name": "MACC",
+        "frame_size": 130,
+        "frame_count": 24,
+        "frame_descriptions": []
+    },
+    {
+        "name": "MACC_EXTRA_FRAMES",
+        "frame_size": 130,
+        "frame_count": 7,
+        "frame_descriptions": []
+    },
+    {
+        "name": "DCM",
+        "frame_size": 130,
+        "frame_count": 1,
+        "frame_descriptions": []
+    },
+    {
+        "name": "BRAM",
+        "frame_size": 130,
+        "frame_count": 25,
+        "frame_descriptions": []
+    },
+    {
+        "name": "PCIE",
+        "frame_size": 130,
+        "frame_count": 147,
+        "frame_descriptions": []
+    },
+    {
+        "name": "DCM_MAYBE",
+        "frame_size": 130,
+        "frame_count": 30,
+        "frame_descriptions": []
+    },
+    {
+        "name": "SPL_BLK_PAD",
+        "frame_size": 16,
+        "frame_count": 1,
+        "frame_descriptions": []
+    },
+    {
+        "name": "LEFT",
+        "frame_size": 130,
+        "frame_count": 34,
+        "frame_descriptions": []
+    },
+    {
+        "name": "LEFT_MCB",
+        "frame_size": 130,
+        "frame_count": 33,
+        "frame_descriptions": []
+    },
+    {
+        "name": "RIGHT",
+        "frame_size": 130,
+        "frame_count": 37,
+        "frame_descriptions": []
+    },
+    {
+        "name": "RIGHT_IOI",
+        "frame_size": 130,
+        "frame_count": 31,
+        "frame_descriptions": []
+    },
+    {
+        "name": "RIGHT_IOI_MCB",
+        "frame_size": 130,
+        "frame_count": 30,
+        "frame_descriptions": []
+    },
+    {
+        "name": "RIGHT_IOI_SPL_BLK",
+        "frame_size": 130,
+        "frame_count": 30,
+        "frame_descriptions": []
+    },
+    {
+        "name": "LEFT_IOI",
+        "frame_size": 130,
+        "frame_count": 33,
+        "frame_descriptions": []
+    },
+    {
+        "name": "END_ROW_PAD",
+        "frame_size": 130,
+        "frame_count": 2,
+        "frame_descriptions": []
+    },
+    {
+        "name": "MCB_RIGHT_PADDING",
+        "frame_size": 114,
+        "frame_count": 1,
+        "frame_descriptions": []
+    },
+    {
+        "name": "RIGHT_SPL_BLK_PAD",
+        "frame_size": 114,
+        "frame_count": 1,
+        "frame_descriptions": []
+    },
+    {
+        "name": "GTP",
+        "frame_size": 130,
+        "frame_count": 269,
+        "frame_descriptions": []
+    },
+    {
+        "name": "GTP_EXTRA",
+        "frame_size": 130,
+        "frame_count": 30,
+        "frame_descriptions": []
+    }
+]

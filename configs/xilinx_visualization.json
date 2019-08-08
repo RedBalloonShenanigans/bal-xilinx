@@ -1,0 +1,206 @@
+{
+    "XilinxBitstream": {
+        "depth": 3,
+        "renderer": {
+            "type": "TreeMapView",
+            "tiler": {
+                "type": "treemapSlice"
+            }
+        },
+        "scaler": {
+            "type": "exponentialScaler",
+            "exponent": 0.25
+        },
+        "styles": {
+            "XilinxPackets": {
+                "renderer": {
+                    "type": "TreeMapView",
+                    "tiler": {
+                        "type": "treemapTable",
+                        "columns": 3
+                    }
+                },
+                "scaler": {
+                    "type": "constantScaler"
+                },
+                "styles": {
+                    "XilinxPacket": {
+                        "renderer": {
+                            "type": "TreeMapView",
+                            "tiler": {
+                                "type": "treemapDice"
+                            }
+                        },
+                        "scaler": {
+                            "type": "constantScaler"
+                        },
+                        "styles": {
+                            "WordCountValue": {
+                                "renderer": {
+                                    "value": false
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "XilinxPacket": {
+        "depth": 2,
+        "renderer": {
+            "type": "TreeMapView",
+            "tiler": {
+                "type": "treemapDiceSlice"
+            }
+        },
+        "scaler": {
+            "type": "exponentialScaler",
+            "exponent": 0.25
+        },
+        "styles": {
+            "XilinxFdriPayload": {
+                "renderer": {
+                    "type": "TreeMapView",
+                    "tiler": {
+                        "type": "treemapSlice"
+                    }
+                },
+                "scaler": {
+                    "type": "exponentialScaler",
+                    "exponent": 0.25
+                }
+            }
+        }
+    },
+    "XilinxFdriLogicBlock": {
+        "depth": 3,
+        "renderer": {
+            "type": "TreeMapView",
+            "tiler": {
+                "type": "treemapDiceSlice"
+            }
+        },
+        "scaler": {
+            "type": "exponentialScaler",
+            "exponent": 1
+        },
+        "styles": {
+            "Pcie": {
+                "depth": 0,
+                "renderer": {
+                    "type": "TreeMapView",
+                    "tiler": {
+                        "type": "treemapDiceSlice"
+                    }
+                },
+                "scaler": {
+                    "type": "exponentialScaler",
+                    "exponent": 1
+                }
+            },
+            "Gtp": {
+                "depth": 0,
+                "renderer": {
+                    "type": "TreeMapView",
+                    "tiler": {
+                        "type": "treemapDiceSlice"
+                    }
+                },
+                "scaler": {
+                    "type": "exponentialScaler",
+                    "exponent": 1
+                }
+            },
+            "XilinxFdriLogicMajor": {
+                "renderer": {
+                    "label": true,
+                    "type": "TreeMapView",
+                    "tiler": {
+                        "type": "treemapDiceSlice"
+                    }
+                },
+                "scaler": {
+                    "type": "exponentialScaler",
+                    "exponent": 1
+                },
+                "styles": {
+                    "XilinxFdriLogicFrame": {
+                        "renderer": {
+                            "label": false,
+                            "description": false,
+                            "type": "TreeMapView",
+                            "tiler": {
+                                "type": "treemapSliceDice"
+                            }
+                        },
+                        "scaler": {
+                            "type": "exponentialScaler",
+                            "exponent": 1
+                        },
+                        "styles": {
+                            "XilinxFdriLogicFrameValue": {
+                                "renderer": {
+                                    "label": false,
+                                    "description": false,
+                                    "value": false,
+                                    "type": "TreeMapView",
+                                    "tiler": {
+                                        "type": "treemapDiceSlice"
+                                    }
+                                },
+                                "scaler": {
+                                    "type": "exponentialScaler",
+                                    "exponent": 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "XilinxFdriLogicMajor": {
+        "depth": 10,
+        "renderer": {
+            "type": "TreeMapView",
+            "tiler": {
+                "type": "treemapDiceSlice"
+            }
+        },
+        "scaler": {
+            "type": "exponentialScaler",
+            "exponent": 1
+        },
+        "styles": {
+            "XilinxFdriLogicFrame": {
+                "renderer": {
+                    "label": true,
+                    "description": true,
+                    "type": "TreeMapView",
+                    "tiler": {
+                        "type": "treemapDiceSlice"
+                    },
+                    "parser": {
+                        "type": "bytes",
+                        "endianness": "big",
+                        "getter": "getUint16",
+                        "model_type": "IntValue",
+                        "size": 2
+                    }
+                },
+                "scaler": {
+                    "type": "exponentialScaler",
+                    "exponent": 1
+                },
+                "styles": {
+                    "IntValue": {
+                        "renderer": {
+                            "value": false
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

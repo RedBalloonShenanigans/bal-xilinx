@@ -1,0 +1,685 @@
+[
+    {
+        "device_name": "LX9",
+        "io_block_format": [
+            {
+                "pin_name": "P70",
+                "offset": 0,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P69",
+                "offset": 8,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P67",
+                "offset": 16,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P66",
+                "offset": 24,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P65",
+                "offset": 32,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P64",
+                "offset": 40,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P62",
+                "offset": 48,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P61",
+                "offset": 56,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P60",
+                "offset": 64,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P59",
+                "offset": 72,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P58",
+                "offset": 80,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P57",
+                "offset": 88,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P55",
+                "offset": 136,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P56",
+                "offset": 144,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P51",
+                "offset": 208,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P50",
+                "offset": 216,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P48",
+                "offset": 304,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P47",
+                "offset": 312,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P46",
+                "offset": 320,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P45",
+                "offset": 328,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P44",
+                "offset": 336,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P43",
+                "offset": 344,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P41",
+                "offset": 368,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P40",
+                "offset": 376,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P39",
+                "offset": 384,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P38",
+                "offset": 392,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P35",
+                "offset": 400,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P42",
+                "offset": 400,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P63",
+                "offset": 400,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P34",
+                "offset": 408,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P33",
+                "offset": 416,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P32",
+                "offset": 424,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P30",
+                "offset": 512,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P29",
+                "offset": 520,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P27",
+                "offset": 528,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P26",
+                "offset": 536,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P24",
+                "offset": 592,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P23",
+                "offset": 600,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P22",
+                "offset": 608,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P21",
+                "offset": 616,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P17",
+                "offset": 672,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P16",
+                "offset": 680,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P15",
+                "offset": 688,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P14",
+                "offset": 696,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P12",
+                "offset": 768,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P11",
+                "offset": 776,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P10",
+                "offset": 784,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P9",
+                "offset": 792,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P8",
+                "offset": 800,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P7",
+                "offset": 808,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P6",
+                "offset": 816,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P5",
+                "offset": 824,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P2",
+                "offset": 880,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P1",
+                "offset": 888,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P18",
+                "offset": 896,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P4",
+                "offset": 896,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P31",
+                "offset": 896,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P144",
+                "offset": 896,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P143",
+                "offset": 904,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P142",
+                "offset": 912,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P141",
+                "offset": 920,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P140",
+                "offset": 928,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P139",
+                "offset": 936,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P138",
+                "offset": 944,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P137",
+                "offset": 952,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P134",
+                "offset": 1056,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P133",
+                "offset": 1064,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P132",
+                "offset": 1072,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P131",
+                "offset": 1080,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P127",
+                "offset": 1136,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P126",
+                "offset": 1144,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P124",
+                "offset": 1152,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P123",
+                "offset": 1160,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P121",
+                "offset": 1216,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P120",
+                "offset": 1224,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P119",
+                "offset": 1248,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P118",
+                "offset": 1256,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P117",
+                "offset": 1264,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P116",
+                "offset": 1272,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P115",
+                "offset": 1280,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P114",
+                "offset": 1288,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P112",
+                "offset": 1296,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P111",
+                "offset": 1304,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P135",
+                "offset": 1312,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P125",
+                "offset": 1312,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P122",
+                "offset": 1312,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P105",
+                "offset": 1312,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P104",
+                "offset": 1320,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P102",
+                "offset": 1376,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P101",
+                "offset": 1384,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P100",
+                "offset": 1392,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P99",
+                "offset": 1400,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P98",
+                "offset": 1408,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P97",
+                "offset": 1416,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P95",
+                "offset": 1504,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P94",
+                "offset": 1512,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P93",
+                "offset": 1520,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P92",
+                "offset": 1528,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P88",
+                "offset": 1584,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P87",
+                "offset": 1592,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P85",
+                "offset": 1600,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P84",
+                "offset": 1608,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P83",
+                "offset": 1632,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P82",
+                "offset": 1640,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P81",
+                "offset": 1648,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P80",
+                "offset": 1656,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P79",
+                "offset": 1664,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P78",
+                "offset": 1672,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P75",
+                "offset": 1792,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P74",
+                "offset": 1800,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P76",
+                "offset": 1808,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P86",
+                "offset": 1808,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            },
+            {
+                "pin_name": "P103",
+                "offset": 1808,
+                "on_value": "8001000000110001",
+                "off_value": "800000000024000B"
+            }
+        ]
+    }
+]

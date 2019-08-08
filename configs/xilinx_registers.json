@@ -1,0 +1,1180 @@
+[
+    {
+        "address": 0,
+        "name": "Crc",
+        "description": "Cyclic Redundancy Check",
+        "attributes": [
+            {
+                "name": "checksum",
+                "bit_size": 32,
+                "description": "CRC Checksum",
+                "values": []
+            }
+        ],
+        "size": 4
+    },
+    {
+        "address": 1,
+        "name": "FarMaj",
+        "description": "Frame Address Register Block and Major",
+        "attributes": [
+            {
+                "name": "blk",
+                "bit_size": 4,
+                "description": "Block Address",
+                "values": []
+            },
+            {
+                "name": "row",
+                "bit_size": 4,
+                "description": "Row Address",
+                "values": []
+            },
+            {
+                "name": "major",
+                "bit_size": 8,
+                "description": "Major Address",
+                "values": []
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 1048576,
+        "name": "FarMajExtended",
+        "description": "",
+        "attributes": [
+            {
+                "name": "blk_ram",
+                "bit_size": 2,
+                "description": "Block Ram Address",
+                "values": []
+            },
+            {
+                "name": "reserved",
+                "bit_size": 4,
+                "description": "",
+                "values": []
+            },
+            {
+                "name": "minor",
+                "bit_size": 10,
+                "description": "Major Address",
+                "values": []
+            },
+            {
+                "name": "blk",
+                "bit_size": 4,
+                "description": "Block Address",
+                "values": []
+            },
+            {
+                "name": "row",
+                "bit_size": 4,
+                "description": "Row Address",
+                "values": []
+            },
+            {
+                "name": "major",
+                "bit_size": 8,
+                "description": "Major Address",
+                "values": []
+            }
+        ],
+        "size": 4
+    },
+    {
+        "address": 2,
+        "name": "FarMin",
+        "description": "Frame Address Register Minor",
+        "attributes": [
+            {
+                "name": "blk_ram",
+                "bit_size": 2,
+                "description": "Block Ram Address",
+                "values": []
+            },
+            {
+                "name": "reserved",
+                "bit_size": 4,
+                "description": "",
+                "values": []
+            },
+            {
+                "name": "minor",
+                "bit_size": 10,
+                "description": "Major Address",
+                "values": []
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 3,
+        "name": "Fdri",
+        "description": "Frame Data Input",
+        "attributes": [],
+        "size": 0
+    },
+    {
+        "address": 4,
+        "name": "Fdr0",
+        "description": "Frame Data Output",
+        "attributes": [],
+        "size": 0
+    },
+    {
+        "address": 5,
+        "name": "Cmd",
+        "description": "Command",
+        "attributes": [
+            {
+                "name": "command",
+                "bit_size": 16,
+                "description": "cmd register",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": "NULL",
+                        "description": "NULL Command"
+                    },
+                    {
+                        "value": 1,
+                        "name": "WCFG",
+                        "description": "Writes Configuration Data"
+                    },
+                    {
+                        "value": 2,
+                        "name": "MFW",
+                        "description": "Multiple Frame Write"
+                    },
+                    {
+                        "value": 3,
+                        "name": "LFRM",
+                        "description": "Last Frame"
+                    },
+                    {
+                        "value": 4,
+                        "name": "RCFG",
+                        "description": "Reads Configuration Data"
+                    },
+                    {
+                        "value": 5,
+                        "name": "START",
+                        "description": "Begin Startup Sequence"
+                    },
+                    {
+                        "value": 6,
+                        "name": "NONE",
+                        "description": "N/A"
+                    },
+                    {
+                        "value": 7,
+                        "name": "RCRC",
+                        "description": "Resets CRC"
+                    },
+                    {
+                        "value": 8,
+                        "name": "AGHIGH",
+                        "description": "Asserts the GHIGH_B signal: Places all interconnect in high-Z"
+                    },
+                    {
+                        "value": 9,
+                        "name": "NONE",
+                        "description": "N/A"
+                    },
+                    {
+                        "value": 10,
+                        "name": "GRESTORE",
+                        "description": "Pulses the GRESTORE signal: Sets/resets IOB and CLB flip-flops"
+                    },
+                    {
+                        "value": 11,
+                        "name": "SHUTDOWN",
+                        "description": "Begins Shutdown Sequence"
+                    },
+                    {
+                        "value": 12,
+                        "name": "NONE",
+                        "description": "N/A"
+                    },
+                    {
+                        "value": 13,
+                        "name": "DESYNC",
+                        "description": "Resets DALIGN Signal. End of Configuration"
+                    },
+                    {
+                        "value": 14,
+                        "name": "IPROG",
+                        "description": "Generate reboot_rst"
+                    }
+                ]
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 6,
+        "name": "Ctl",
+        "description": "Control",
+        "attributes": [
+            {
+                "name": "reserved1",
+                "bit_size": 9,
+                "description": "",
+                "values": []
+            },
+            {
+                "name": "dec",
+                "bit_size": 1,
+                "description": "Decryption",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "No decryption"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "Decryption used (automatically set SBITS to Level1 or up and mc_enc=1)"
+                    }
+                ]
+            },
+            {
+                "name": "sbits",
+                "bit_size": 2,
+                "description": "Security level",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "R/W Okay"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "Permits only ICAP readback"
+                    },
+                    {
+                        "value": 2,
+                        "name": null,
+                        "description": "All readback disabled"
+                    }
+                ]
+            },
+            {
+                "name": "persist",
+                "bit_size": 1,
+                "description": "Configuration interface remains after configuration",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "No"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "YES"
+                    }
+                ]
+            },
+            {
+                "name": "use_efuse_key",
+                "bit_size": 1,
+                "description": "Use eFuse key as decrpytion key",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "Use battery-backed RAM key"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "Use eFUSE key"
+                    }
+                ]
+            },
+            {
+                "name": "crc_extstat_disable",
+                "bit_size": 1,
+                "description": "External CRC status pin (INIT_B) pulled Low when using POST CRC",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "CRC indicator enabled"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "CRC indicator disabled"
+                    }
+                ]
+            },
+            {
+                "name": "reserved2",
+                "bit_size": 1,
+                "description": "",
+                "values": []
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 7,
+        "name": "Mask",
+        "description": "Control Mask",
+        "attributes": [
+            {
+                "name": "mask",
+                "bit_size": 16,
+                "description": "Masks the control register",
+                "values": []
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 8,
+        "name": "Stat",
+        "description": "Status",
+        "attributes": [],
+        "size": 0
+    },
+    {
+        "address": 9,
+        "name": "Lout",
+        "description": "Legacy Outpur for serial daisy-chain",
+        "attributes": [],
+        "size": 0
+    },
+    {
+        "address": 10,
+        "name": "Cor1",
+        "description": "Configuration Option 1",
+        "attributes": [
+            {
+                "name": "drive_awake",
+                "bit_size": 1,
+                "description": "",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "Does not drive the awake pin (open drain)"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "Actively drives the awake pin"
+                    }
+                ]
+            },
+            {
+                "name": "reserved",
+                "bit_size": 10,
+                "description": "",
+                "values": []
+            },
+            {
+                "name": "crc_bypass",
+                "bit_size": 1,
+                "description": "",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "Checks against updated CRC value"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "Does not check against the updated CRC value"
+                    }
+                ]
+            },
+            {
+                "name": "done_pipe",
+                "bit_size": 1,
+                "description": "Done pipelining",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "No pipeline stage for DONEIN"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "Add pipeline stage for DONEIN"
+                    }
+                ]
+            },
+            {
+                "name": "drive_done",
+                "bit_size": 1,
+                "description": "DONE pin drive",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "DONE pin is open drain"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "DONE pin is actively drive high"
+                    }
+                ]
+            },
+            {
+                "name": "ssclksrc",
+                "bit_size": 2,
+                "description": "Startup Sequence Clock",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "CCLK"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "UserClk"
+                    },
+                    {
+                        "value": 2,
+                        "name": null,
+                        "description": "TCK"
+                    }
+                ]
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 11,
+        "name": "Cor2",
+        "description": "Configuration Option 2",
+        "attributes": [
+            {
+                "name": "reset_on_error",
+                "bit_size": 1,
+                "description": "Option to fallback when a crc_error occurs",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "Disable reset on error"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "Enable reset on error"
+                    }
+                ]
+            },
+            {
+                "name": "reserved",
+                "bit_size": 3,
+                "description": "",
+                "values": []
+            },
+            {
+                "name": "done_cycle",
+                "bit_size": 3,
+                "description": "Startup phase in which DONE pin is released",
+                "values": []
+            },
+            {
+                "name": "lck_cycle",
+                "bit_size": 3,
+                "description": "Stall in this startup phase until DCM or PLL lock is asserted",
+                "values": []
+            },
+            {
+                "name": "gts_cycle",
+                "bit_size": 3,
+                "description": "Startup phase in which I/Os switch from 3-state to user design.",
+                "values": []
+            },
+            {
+                "name": "gwe_cycle",
+                "bit_size": 3,
+                "description": "GWE_CYCLE",
+                "values": []
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 12,
+        "name": "PwrdnReg",
+        "description": "Power-down option register",
+        "attributes": [
+            {
+                "name": "reserved",
+                "bit_size": 1,
+                "description": "",
+                "values": []
+            },
+            {
+                "name": "en_eyes",
+                "bit_size": 1,
+                "description": "Enable Multi-Pin Wake-Up",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "Disable Multi-Pin Wake-Up"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "Enable Multi-Pin Wake-Up"
+                    }
+                ]
+            },
+            {
+                "name": "reserved1",
+                "bit_size": 8,
+                "description": "",
+                "values": []
+            },
+            {
+                "name": "filter_b",
+                "bit_size": 1,
+                "description": "",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "Suspend filter (200 ns) on"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "Filter off"
+                    }
+                ]
+            },
+            {
+                "name": "en_pgsr",
+                "bit_size": 1,
+                "description": "",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": " No GSR pulse during return from Suspend"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": " Generate GSR pulse during return from Suspend"
+                    }
+                ]
+            },
+            {
+                "name": "reserved2",
+                "bit_size": 1,
+                "description": "",
+                "values": []
+            },
+            {
+                "name": "en_pwrdn",
+                "bit_size": 1,
+                "description": "",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "Suspend is disabled"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "Suspend is enabled"
+                    }
+                ]
+            },
+            {
+                "name": "reserved3",
+                "bit_size": 1,
+                "description": "",
+                "values": []
+            },
+            {
+                "name": "keep_sclk",
+                "bit_size": 1,
+                "description": "",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "Use MCCLK for startup sequence initiated by power-up"
+                    },
+                    {
+                        "value": 2,
+                        "name": null,
+                        "description": "User SSCLKSRC for startup sequence initiated by power-up"
+                    }
+                ]
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 13,
+        "name": "Flr",
+        "description": "Frame Length Register",
+        "attributes": [
+            {
+                "name": "actual_frame_length",
+                "bit_size": 16,
+                "description": "Frame length in 16-bit words.  The only block that needs a specified frame length is IOB",
+                "values": []
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 14,
+        "name": "Idcode",
+        "description": "Product IDCODE",
+        "attributes": [
+            {
+                "name": "idcode",
+                "bit_size": 32,
+                "description": "Series number associated with IDCODE",
+                "values": [
+                    {
+                        "value": 67109011,
+                        "name": "LX4",
+                        "description": null
+                    },
+                    {
+                        "value": 67113107,
+                        "name": "LX9",
+                        "description": null
+                    },
+                    {
+                        "value": 67117203,
+                        "name": "LX16",
+                        "description": null
+                    },
+                    {
+                        "value": 67125395,
+                        "name": "LX25",
+                        "description": null
+                    },
+                    {
+                        "value": 67256467,
+                        "name": "LX25T",
+                        "description": null
+                    },
+                    {
+                        "value": 67141779,
+                        "name": "LX45",
+                        "description": null
+                    },
+                    {
+                        "value": 67272851,
+                        "name": "LX45T",
+                        "description": null
+                    },
+                    {
+                        "value": 67166355,
+                        "name": "LX75",
+                        "description": null
+                    },
+                    {
+                        "value": 67297427,
+                        "name": "LX75T",
+                        "description": null
+                    },
+                    {
+                        "value": 67178643,
+                        "name": "LX100",
+                        "description": null
+                    },
+                    {
+                        "value": 67309715,
+                        "name": "LX100T",
+                        "description": null
+                    },
+                    {
+                        "value": 67227795,
+                        "name": "LX150",
+                        "description": null
+                    },
+                    {
+                        "value": 67358867,
+                        "name": "LX150T",
+                        "description": null
+                    }
+                ]
+            }
+        ],
+        "size": 4
+    },
+    {
+        "address": 15,
+        "name": "Cwdt",
+        "description": "Configuration Watchdog Timer",
+        "attributes": [
+            {
+                "name": "cycles",
+                "bit_size": 16,
+                "description": "Number of cycles where SYNC is not received before watchdog times-out",
+                "values": []
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 16,
+        "name": "HcOptReg",
+        "description": "House Clean Option Register",
+        "attributes": [
+            {
+                "name": "dont_care",
+                "bit_size": 9,
+                "description": "",
+                "values": []
+            },
+            {
+                "name": "init_skip",
+                "bit_size": 1,
+                "description": "",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "Do not skip initialization"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "Skip initialization"
+                    }
+                ]
+            },
+            {
+                "name": "reserved",
+                "bit_size": 6,
+                "description": "",
+                "values": []
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 17,
+        "name": "None",
+        "description": "N/A",
+        "attributes": [],
+        "size": 0
+    },
+    {
+        "address": 18,
+        "name": "Csbo",
+        "description": "CSB output for parallel daisy-chaining",
+        "attributes": [],
+        "size": 0
+    },
+    {
+        "address": 19,
+        "name": "General1",
+        "description": "Power-up self test or loadable program address",
+        "attributes": [
+            {
+                "name": "low_multi_addr",
+                "bit_size": 16,
+                "description": "Lower half of multiple boot address",
+                "values": []
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 20,
+        "name": "General2",
+        "description": "Power-up self test or loadable program address and new SPI opcode",
+        "attributes": [
+            {
+                "name": "spi_op",
+                "bit_size": 8,
+                "description": "SPI Opcode",
+                "values": []
+            },
+            {
+                "name": "high_multi_addr",
+                "bit_size": 8,
+                "description": "Higher half of multiple boot address",
+                "values": []
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 21,
+        "name": "General3",
+        "description": "Golden bitstream address",
+        "attributes": [
+            {
+                "name": "golden_low_addr",
+                "bit_size": 16,
+                "description": "The lower half of the golden bitstream address",
+                "values": []
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 22,
+        "name": "General4",
+        "description": "Golden bitstream address and new SPI opcode",
+        "attributes": [
+            {
+                "name": "spi_op",
+                "bit_size": 8,
+                "description": "SPI Opcode",
+                "values": []
+            },
+            {
+                "name": "golden_high_addr",
+                "bit_size": 8,
+                "description": "The higher half of the golden bitstream address",
+                "values": []
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 23,
+        "name": "General5",
+        "description": "User-definied register for fail-sage scheme",
+        "attributes": [
+            {
+                "name": "scratch",
+                "bit_size": 16,
+                "description": "The user-defined scratchpad register",
+                "values": []
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 24,
+        "name": "Mode",
+        "description": "Reboot mode",
+        "attributes": [
+            {
+                "name": "reserved",
+                "bit_size": 1,
+                "description": "",
+                "values": []
+            },
+            {
+                "name": "reserved1",
+                "bit_size": 1,
+                "description": "",
+                "values": []
+            },
+            {
+                "name": "new_mode",
+                "bit_size": 1,
+                "description": "",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "Physical mode), ignore bit[10:0] (default)"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "Bitstream mode), use bit[10:0], required for MultiBoot and Fallback."
+                    }
+                ]
+            },
+            {
+                "name": "buswidth",
+                "bit_size": 2,
+                "description": "The buswidth setting to reboot SPI",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "by 1"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "by 2"
+                    },
+                    {
+                        "value": 2,
+                        "name": null,
+                        "description": "by 4"
+                    }
+                ]
+            },
+            {
+                "name": "bootmode",
+                "bit_size": 3,
+                "description": "",
+                "values": [
+                    {
+                        "value": 4,
+                        "name": null,
+                        "description": "Reserved"
+                    },
+                    {
+                        "value": 2,
+                        "name": null,
+                        "description": "BOOTMODE 1"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "BOOTMODE 0"
+                    }
+                ]
+            },
+            {
+                "name": "bootvsel",
+                "bit_size": 8,
+                "description": "The vsel setting to reboot (read only)",
+                "values": []
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 25,
+        "name": "PuGwe",
+        "description": "GWE cycle during wake-up from suspend",
+        "attributes": [
+            {
+                "name": "reserved",
+                "bit_size": 6,
+                "description": "",
+                "values": []
+            },
+            {
+                "name": "gwe_seq",
+                "bit_size": 10,
+                "description": "This 10-bit register stores the wake-up GWE sequence from suspend",
+                "values": []
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 26,
+        "name": "PuGts",
+        "description": "GTS cycle during wake-up from suspend",
+        "attributes": [
+            {
+                "name": "reserved",
+                "bit_size": 6,
+                "description": "",
+                "values": []
+            },
+            {
+                "name": "gts_seq",
+                "bit_size": 10,
+                "description": "This 10-bit register stores the wake-up GTS sequence from suspend",
+                "values": []
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 27,
+        "name": "Mfwr",
+        "description": "Multi-frame write Register",
+        "attributes": [],
+        "size": 0
+    },
+    {
+        "address": 28,
+        "name": "CclkFreq",
+        "description": "CCLK frequency select for master mode",
+        "attributes": [
+            {
+                "name": "reserved1",
+                "bit_size": 1,
+                "description": "",
+                "values": []
+            },
+            {
+                "name": "ext_0mclk",
+                "bit_size": 1,
+                "description": "",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "Select internal master clock"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "Select external master clock"
+                    }
+                ]
+            },
+            {
+                "name": "reserved2",
+                "bit_size": 4,
+                "description": "",
+                "values": []
+            },
+            {
+                "name": "mclk_freq",
+                "bit_size": 10,
+                "description": "CCLK frequency select. This register is a shared use register with the ExtMCCLK_Divide signal, which divides the external clock.",
+                "values": []
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 29,
+        "name": "SeuOpt",
+        "description": "SEU frequency, enable and status",
+        "attributes": [
+            {
+                "name": "reserved",
+                "bit_size": 2,
+                "description": "Reserved bits",
+                "values": []
+            },
+            {
+                "name": "seu_freq",
+                "bit_size": 10,
+                "description": "bus_clk frequency during SEU detection",
+                "values": []
+            },
+            {
+                "name": "seu_ron_on_err",
+                "bit_size": 1,
+                "description": "IF SEU_ERR is detected, keep running?",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "Halt"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "Keep Running"
+                    }
+                ]
+            },
+            {
+                "name": "reserved2",
+                "bit_size": 1,
+                "description": "",
+                "values": []
+            },
+            {
+                "name": "glut_mask",
+                "bit_size": 1,
+                "description": "Mask out LUTRAM/SRL Readback",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "Unmask"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "Mask out LUTRAM/SRL readback"
+                    }
+                ]
+            },
+            {
+                "name": "seu_enable",
+                "bit_size": 1,
+                "description": "",
+                "values": [
+                    {
+                        "value": 0,
+                        "name": null,
+                        "description": "Enable"
+                    },
+                    {
+                        "value": 1,
+                        "name": null,
+                        "description": "Disable"
+                    }
+                ]
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 30,
+        "name": "ExpSign",
+        "description": "Expected readback signature for SEU detection",
+        "attributes": [
+            {
+                "name": "signature",
+                "bit_size": 32,
+                "description": "Expected readback signature for SEU detection.",
+                "values": []
+            }
+        ],
+        "size": 4
+    },
+    {
+        "address": 31,
+        "name": "RdbkSign",
+        "description": "Readback signature for readback command and SEU",
+        "attributes": [],
+        "size": 0
+    },
+    {
+        "address": 32,
+        "name": "Bootsts",
+        "description": "Boot History Register",
+        "attributes": [],
+        "size": 0
+    },
+    {
+        "address": 33,
+        "name": "EyeMask",
+        "description": "Mask pins for Multi-Pin Wake-up",
+        "attributes": [
+            {
+                "name": "reserved",
+                "bit_size": 8,
+                "description": "Reserved bits",
+                "values": []
+            },
+            {
+                "name": "mask",
+                "bit_size": 8,
+                "description": "Mask for the SCP pins for the Multi-Pin Wake-Up ",
+                "values": []
+            }
+        ],
+        "size": 2
+    },
+    {
+        "address": 34,
+        "name": "CbcReg",
+        "description": "Initial CBC Value Register",
+        "attributes": [],
+        "size": 0
+    }
+]

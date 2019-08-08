@@ -1,0 +1,61 @@
+[
+    {
+        "device_name": "LX45T",
+        "logic_block_format": [
+            [
+                "LEFT_IOI", "L_CLB", "M_CLB", "BRAM", "L_CLB", "M_CLB", "MACC",
+                "L_CLB", "M_CLB", "L_CLB", "M_CLB", "L_CLB", "BRAM", "M_CLB", "L_CLB", "M_CLB", "L_CLB",
+                "M_CLB", "L_CLB", "DCM", "M_CLB", "L_CLB", "M_CLB", "L_CLB","M_CLB", "L_CLB",
+                "BRAM",  "L_CLB", "M_CLB", "L_CLB", "M_CLB", "L_CLB", "MACC", "MACC_EXTRA_FRAMES", "M_CLB", "L_CLB",
+                "BRAM","M_CLB", "L_CLB", "RIGHT_IOI", "END_ROW_PAD"
+            ],
+            [
+                "LEFT_IOI", "L_CLB", "M_CLB", "BRAM", "L_CLB", "M_CLB", "MACC",
+                "L_CLB", "M_CLB", "L_CLB", "M_CLB", "L_CLB", "BRAM", "M_CLB", "L_CLB", "M_CLB", "L_CLB",
+                "M_CLB", "L_CLB", "DCM", "M_CLB", "L_CLB", "M_CLB", "L_CLB","M_CLB", "L_CLB",
+                "BRAM",  "L_CLB", "M_CLB", "L_CLB", "M_CLB", "L_CLB", "MACC", "MACC_EXTRA_FRAMES", "M_CLB", "L_CLB",
+                "BRAM","M_CLB", "L_CLB", "RIGHT_IOI", "END_ROW_PAD"
+            ],
+            [
+                "LEFT_IOI", "L_CLB", "M_CLB", "BRAM", "L_CLB", "M_CLB", "MACC",
+                "L_CLB", "M_CLB", "L_CLB", "M_CLB", "L_CLB", "BRAM", "M_CLB", "L_CLB", "M_CLB", "L_CLB",
+                "M_CLB", "L_CLB", "DCM", "M_CLB", "L_CLB", "M_CLB", "L_CLB","M_CLB", "L_CLB",
+                "BRAM",  "L_CLB", "M_CLB", "L_CLB", "M_CLB", "L_CLB", "MACC", "MACC_EXTRA_FRAMES", "M_CLB", "L_CLB",
+                "BRAM","M_CLB", "L_CLB", "RIGHT_IOI", "END_ROW_PAD"
+            ],
+            [
+                "LEFT_IOI", "L_CLB", "M_CLB", "BRAM", "L_CLB", "M_CLB", "MACC",
+                "L_CLB", "M_CLB", "L_CLB", "M_CLB", "L_CLB", "BRAM", "M_CLB", "L_CLB", "M_CLB", "L_CLB",
+                "M_CLB", "L_CLB", "DCM", "M_CLB", "L_CLB", "M_CLB", "L_CLB","M_CLB", "L_CLB",
+                "BRAM",  "L_CLB", "M_CLB", "L_CLB", "M_CLB", "L_CLB", "MACC", "MACC_EXTRA_FRAMES", "M_CLB", "L_CLB",
+                "BRAM","M_CLB", "L_CLB", "RIGHT_IOI", "END_ROW_PAD"
+            ],
+            [
+                "SPL_BLK_PAD", "LEFT_MCB", "L_CLB", "M_CLB", "BRAM", "L_CLB", "M_CLB", "MACC",
+                "L_CLB", "M_CLB", "L_CLB", "M_CLB", "L_CLB", "BRAM", "M_CLB", "L_CLB", "M_CLB", "L_CLB",
+                "M_CLB", "DCM", "DCM_MAYBE", "M_CLB", "L_CLB", "M_CLB", "L_CLB","M_CLB", "L_CLB",
+                "BRAM",  "L_CLB", "M_CLB", "L_CLB", "M_CLB", "L_CLB", "MACC", "MACC_EXTRA_FRAMES", "M_CLB", "L_CLB",
+                "BRAM","M_CLB", "L_CLB", "RIGHT_IOI_MCB", "MCB_RIGHT_PADDING", "END_ROW_PAD"
+            ],
+            [
+                "SPL_BLK_PAD", "LEFT_MCB", "L_CLB", "M_CLB", "BRAM", "L_CLB", "M_CLB", "MACC",
+                "L_CLB", "M_CLB", "L_CLB", "M_CLB", "L_CLB", "BRAM", "M_CLB", "L_CLB", "M_CLB", "L_CLB",
+                "M_CLB", "L_CLB", "DCM", "M_CLB", "L_CLB", "M_CLB", "L_CLB","M_CLB", "L_CLB",
+                "BRAM",  "L_CLB", "M_CLB", "L_CLB", "M_CLB", "L_CLB", "MACC", "MACC_EXTRA_FRAMES", "M_CLB", "L_CLB",
+                "BRAM","M_CLB", "L_CLB", "RIGHT_IOI_MCB", "MCB_RIGHT_PADDING", "END_ROW_PAD"
+            ],
+            [
+                "SPL_BLK_PAD", "LEFT_IOI", "L_CLB", "M_CLB", "BRAM", "L_CLB", "M_CLB", "MACC",
+                "L_CLB", "M_CLB", "L_CLB", "PCIE", "M_CLB", "L_CLB",
+                "M_CLB", "L_CLB", "DCM", "M_CLB", "L_CLB", "M_CLB", "L_CLB","M_CLB", "L_CLB",
+                "BRAM",  "L_CLB", "M_CLB", "L_CLB", "M_CLB", "L_CLB", "MACC", "MACC_EXTRA_FRAMES", "M_CLB", "L_CLB",
+                "BRAM","M_CLB", "L_CLB", "RIGHT_IOI_SPL_BLK", "RIGHT_SPL_BLK_PAD", "END_ROW_PAD"
+            ],
+            [
+                "SPL_BLK_PAD","LEFT_IOI", "L_CLB", "M_CLB", "BRAM", "L_CLB", "M_CLB", "MACC", "GTP", "L_CLB",
+                "M_CLB", "L_CLB", "DCM", "M_CLB", "L_CLB", "M_CLB", "GTP","GTP_EXTRA", "M_CLB", "L_CLB",
+                "BRAM","M_CLB", "L_CLB", "RIGHT_IOI_SPL_BLK", "RIGHT_SPL_BLK_PAD", "END_ROW_PAD"
+            ]
+        ]
+    }
+]

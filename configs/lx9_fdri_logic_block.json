@@ -1,0 +1,27 @@
+[
+    {
+        "device_name": "LX9",
+        "logic_block_format": [
+            [
+                "LEFT_IOI", "M_CLB", "L_CLB", "BRAM", "M_CLB", "L_CLB", "MACC",
+                "M_CLB", "L_CLB", "DCM", "M_CLB", "L_CLB", "M_CLB",
+                "L_CLB", "BRAM", "M_CLB", "L_CLB", "RIGHT_IOI", "END_ROW_PAD"
+            ],
+            [
+                "LEFT_IOI", "M_CLB", "L_CLB", "BRAM", "M_CLB", "L_CLB", "MACC", "M_CLB", "L_CLB",
+                "DCM", "M_CLB", "L_CLB", "M_CLB", "L_CLB", "BRAM", "M_CLB", "L_CLB",
+                "RIGHT_IOI", "END_ROW_PAD"
+            ],
+            [
+                "SPL_BLK_PAD", "LEFT_MCB", "M_CLB", "L_CLB", "BRAM", "M_CLB", "L_CLB", "MACC", "M_CLB",
+                "DCM", "DCM_MAYBE", "M_CLB", "L_CLB", "M_CLB", "L_CLB", "BRAM", "M_CLB", "L_CLB",
+                "RIGHT_IOI_MCB", "MCB_RIGHT_PADDING", "END_ROW_PAD"
+            ],
+            [
+                "LEFT_IOI", "M_CLB", "L_CLB", "BRAM", "M_CLB", "L_CLB", "MACC",
+                "M_CLB", "L_CLB", "DCM", "M_CLB", "L_CLB", "M_CLB",
+                "L_CLB", "BRAM", "M_CLB", "L_CLB", "RIGHT_IOI", "END_ROW_PAD"
+            ]
+        ]
+    }
+]

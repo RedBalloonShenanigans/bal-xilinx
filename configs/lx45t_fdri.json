@@ -1,0 +1,9 @@
+[
+  {
+    "device_name": "LX45T",
+    "logic_block_size": 1181440,
+    "bram_block_size": 299520,
+    "io_block_size": 3154,
+    "crc_size": 4
+  }
+]
