@@ -5,8 +5,7 @@ The BAL Xilinx package is an implementation of the
 It supports packing/unpacking of most of the bitstream, target device/encryption detection and 
 pin modification (force the pin high/low).
 It is supposed to be a dependency of a project, not a boilerplate project to be customized.
-It was first introduced at Black Hat 2019, [here](https://www.usenix.org/conference/woot19/presentation/kataria) 
-is a link to the presentation.
+It was first introduced at Black Hat 2019 ([presentation](https://redballoonsecurity.com/files/CycIhULVL5FS6VNM/100_seconds_of_solitude.pdf), [research paper](https://www.usenix.org/conference/woot19/presentation/kataria)).
 
 The full api documentation is available [here](https://RedBalloonShenanigans.github.io/bal-xilinx/).
 
