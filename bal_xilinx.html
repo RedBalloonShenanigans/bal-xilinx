@@ -1,0 +1,1042 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>bal_xilinx &mdash; BAL Xilinx  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="bal_xilinx.analyzers" href="bal_xilinx.analyzers.html" />
+    <link rel="prev" title="Welcome to BAL Xilinx’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> BAL Xilinx
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">bal_xilinx</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="bal_xilinx.analyzers.html">bal_xilinx.analyzers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bal_xilinx.converters.html">bal_xilinx.converters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bal_xilinx.modifiers.html">bal_xilinx.modifiers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bal_xilinx.tools.html">bal_xilinx.tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-bal_xilinx.context">bal_xilinx.context</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-bal_xilinx.data_model">bal_xilinx.data_model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-bal_xilinx.defaults">bal_xilinx.defaults</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-bal_xilinx.format">bal_xilinx.format</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">BAL Xilinx</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>bal_xilinx</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/bal_xilinx.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="bal-xilinx">
+<h1>bal_xilinx<a class="headerlink" href="#bal-xilinx" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="bal_xilinx.analyzers.html">bal_xilinx.analyzers</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="bal_xilinx.analyzers.html#module-bal_xilinx.analyzers.device_analyzer">bal_xilinx.analyzers.device_analyzer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bal_xilinx.analyzers.html#module-bal_xilinx.analyzers.encryption_analyzer">bal_xilinx.analyzers.encryption_analyzer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bal_xilinx.analyzers.html#module-bal_xilinx.analyzers.visualizer_analyzer">bal_xilinx.analyzers.visualizer_analyzer</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="bal_xilinx.converters.html">bal_xilinx.converters</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="bal_xilinx.converters.html#module-bal_xilinx.converters.bitstream">bal_xilinx.converters.bitstream</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bal_xilinx.converters.html#module-bal_xilinx.converters.bitstream_packets">bal_xilinx.converters.bitstream_packets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bal_xilinx.converters.html#module-bal_xilinx.converters.bitstream_packets_1">bal_xilinx.converters.bitstream_packets_1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bal_xilinx.converters.html#module-bal_xilinx.converters.bitstream_packets_2">bal_xilinx.converters.bitstream_packets_2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bal_xilinx.converters.html#module-bal_xilinx.converters.bitstream_packets_fdri">bal_xilinx.converters.bitstream_packets_fdri</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="bal_xilinx.modifiers.html">bal_xilinx.modifiers</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="bal_xilinx.modifiers.html#module-bal_xilinx.modifiers.pin_modifier">bal_xilinx.modifiers.pin_modifier</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="bal_xilinx.tools.html">bal_xilinx.tools</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="bal_xilinx.tools.html#module-bal_xilinx.tools.pin">bal_xilinx.tools.pin</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="module-bal_xilinx.context">
+<span id="bal-xilinx-context"></span><h2>bal_xilinx.context<a class="headerlink" href="#module-bal_xilinx.context" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="bal_xilinx.context.XilinxContext">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.context.</code><code class="sig-name descname">XilinxContext</code><span class="sig-paren">(</span><em class="sig-param">converters_by_type</em>, <em class="sig-param">analyzers_by_type</em>, <em class="sig-param">modifiers_by_type</em>, <em class="sig-param">bitstream_format</em>, <em class="sig-param">bytes</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.context.XilinxContext" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.context.BALContext</span></code></p>
+<p>See the documentation of <code class="xref py py-class docutils literal notranslate"><span class="pre">BALContext</span></code> for an overview of the
+purpose of the context class. In addition, the <a class="reference internal" href="#bal_xilinx.context.XilinxContext" title="bal_xilinx.context.XilinxContext"><code class="xref py py-class docutils literal notranslate"><span class="pre">XilinxContext</span></code></a> stores a reference
+to a <a class="reference internal" href="#bal_xilinx.format.XilinxFormat" title="bal_xilinx.format.XilinxFormat"><code class="xref py py-class docutils literal notranslate"><span class="pre">XilinxFormat</span></code></a> instance that defines the format of a
+Xilinx bitstream.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>converters_by_type</strong> (<em>Dict</em><em>[</em><em>Type</em><em>[</em><em>ConverterInterface</em><em>]</em><em>,</em><em>Type</em><em>[</em><em>AbstractConverter</em><em>]</em><em>]</em>) – The converter
+interfaces mapped to their implementation.</p></li>
+<li><p><strong>analyzers_by_type</strong> (<em>Dict</em><em>[</em><em>Type</em><em>[</em><em>AnalyzerInterface</em><em>]</em><em>,</em><em>Type</em><em>[</em><em>AbstractAnalyzer</em><em>]</em><em>]</em>) – The analyzer
+interfaces mapped to their implementation.</p></li>
+<li><p><strong>modifiers_by_type</strong> (<em>Dict</em><em>[</em><em>Type</em><em>[</em><em>ModifierInterface</em><em>]</em><em>,</em><em>Type</em><em>[</em><em>AbstractModifier</em><em>]</em><em>]</em>) – The modifier
+interfaces mapped to their implementation.</p></li>
+<li><p><strong>bitstream_format</strong> (<a class="reference internal" href="#bal_xilinx.format.XilinxFormat" title="bal_xilinx.format.XilinxFormat"><em>XilinxFormat</em></a>) – The Xilinx bitstream format configuration.</p></li>
+<li><p><strong>bytes</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.7)"><em>bytes</em></a>) – The bytes making up the bitstream.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="method">
+<dt id="bal_xilinx.context.XilinxContext.get_data">
+<code class="sig-name descname">get_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.context.XilinxContext.get_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the data object wrapping the bitstream. The returned object starts out packed but may
+be modified by user call.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>DataObject[<a class="reference internal" href="#bal_xilinx.data_model.XilinxBitstream" title="bal_xilinx.data_model.XilinxBitstream">XilinxBitstream</a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.context.XilinxContextFactory">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.context.</code><code class="sig-name descname">XilinxContextFactory</code><span class="sig-paren">(</span><em class="sig-param">bitstream_format</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.context.XilinxContextFactory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.context.BALContextFactory</span></code></p>
+<p>See the documentation of <code class="xref py py-class docutils literal notranslate"><span class="pre">BALContextFactory</span></code> for an overview of the
+purpose of the context factory class. In addition, the <a class="reference internal" href="#bal_xilinx.context.XilinxContextFactory" title="bal_xilinx.context.XilinxContextFactory"><code class="xref py py-class docutils literal notranslate"><span class="pre">XilinxContextFactory</span></code></a> stores
+a reference to a <a class="reference internal" href="#bal_xilinx.format.XilinxFormat" title="bal_xilinx.format.XilinxFormat"><code class="xref py py-class docutils literal notranslate"><span class="pre">XilinxFormat</span></code></a> instance that defines the
+format of a Xilinx bitstream.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>bitstream_format</strong> (<a class="reference internal" href="#bal_xilinx.format.XilinxFormat" title="bal_xilinx.format.XilinxFormat"><em>XilinxFormat</em></a>) – The Xilinx bitstream format configuration.</p>
+</dd>
+</dl>
+<dl class="method">
+<dt id="bal_xilinx.context.XilinxContextFactory.create">
+<code class="sig-name descname">create</code><span class="sig-paren">(</span><em class="sig-param">data</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.context.XilinxContextFactory.create" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create an Xilinx FPGA context from the provided bytes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>bytes</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.7)"><em>bytes</em></a>) – The bytes for the Xilinx FPGA bitstream</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#bal_xilinx.context.XilinxContext" title="bal_xilinx.context.XilinxContext">XilinxContext</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-bal_xilinx.data_model">
+<span id="bal-xilinx-data-model"></span><h2>bal_xilinx.data_model<a class="headerlink" href="#module-bal_xilinx.data_model" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="bal_xilinx.data_model.XilinxFdriLogicFrame">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.data_model.</code><code class="sig-name descname">XilinxFdriLogicFrame</code><a class="headerlink" href="#bal_xilinx.data_model.XilinxFdriLogicFrame" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.data_model.DataModel</span></code></p>
+<p>A single frame of the major of the logic block of an FDRI payload.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.data_model.XilinxFdriLogicMajor">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.data_model.</code><code class="sig-name descname">XilinxFdriLogicMajor</code><span class="sig-paren">(</span><em class="sig-param">items</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxFdriLogicMajor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.data_model.ArrayModel</span></code></p>
+<p>A single major of the logic block of an FDRI payload.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.data_model.XilinxFdriLogicRow">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.data_model.</code><code class="sig-name descname">XilinxFdriLogicRow</code><span class="sig-paren">(</span><em class="sig-param">items</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxFdriLogicRow" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.data_model.ArrayModel</span></code></p>
+<p>A single row of the logic block of an FDRI payload.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.data_model.XilinxFdriLogicBlock">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.data_model.</code><code class="sig-name descname">XilinxFdriLogicBlock</code><span class="sig-paren">(</span><em class="sig-param">items</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxFdriLogicBlock" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.data_model.ArrayModel</span></code></p>
+<p>The logic block of an FDRI payload.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.data_model.XilinxFdriRAMBlockInterface">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.data_model.</code><code class="sig-name descname">XilinxFdriRAMBlockInterface</code><a class="headerlink" href="#bal_xilinx.data_model.XilinxFdriRAMBlockInterface" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.data_model.DataModel</span></code></p>
+<p>The RAM block of an FDRI payload.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.data_model.XilinxFdriIOBlockInterface">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.data_model.</code><code class="sig-name descname">XilinxFdriIOBlockInterface</code><a class="headerlink" href="#bal_xilinx.data_model.XilinxFdriIOBlockInterface" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.data_model.DataModel</span></code></p>
+<p>The IO block of an FDRI payload.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.data_model.XilinxFdriCRCInterface">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.data_model.</code><code class="sig-name descname">XilinxFdriCRCInterface</code><a class="headerlink" href="#bal_xilinx.data_model.XilinxFdriCRCInterface" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.data_model.DataModel</span></code></p>
+<p>The CRC tail of an FDRI payload.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.data_model.XilinxType2PayloadInterface">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.data_model.</code><code class="sig-name descname">XilinxType2PayloadInterface</code><a class="headerlink" href="#bal_xilinx.data_model.XilinxType2PayloadInterface" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.data_model.DataModel</span></code></p>
+<p>The payload of a type 2 packet in the Xilinx bitstream.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.data_model.XilinxFdriPayload">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.data_model.</code><code class="sig-name descname">XilinxFdriPayload</code><span class="sig-paren">(</span><em class="sig-param">logic_block</em>, <em class="sig-param">bram_block</em>, <em class="sig-param">iob_block</em>, <em class="sig-param">crc</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxFdriPayload" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bal_xilinx.data_model.XilinxType2PayloadInterface" title="bal_xilinx.data_model.XilinxType2PayloadInterface"><code class="xref py py-class docutils literal notranslate"><span class="pre">bal_xilinx.data_model.XilinxType2PayloadInterface</span></code></a>, <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.data_model.ClassModel</span></code></p>
+<p>The payload of a type 2 FDRI packet in the Xilinx bitstream. It contains configuration for
+logic blocks, ram blocks, and io blocks. It also contains a checksum of the blocks config in
+the tail.</p>
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxFdriPayload.get_logic_block">
+<code class="sig-name descname">get_logic_block</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxFdriPayload.get_logic_block" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the data object for the logic block of the FDRI payload.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>DataObject[<a class="reference internal" href="#bal_xilinx.data_model.XilinxFdriLogicBlock" title="bal_xilinx.data_model.XilinxFdriLogicBlock">XilinxFdriLogicBlock</a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxFdriPayload.get_ram_block">
+<code class="sig-name descname">get_ram_block</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxFdriPayload.get_ram_block" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the data object for the RAM block of the FDRI payload.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#bal_xilinx.data_model.XilinxFdriRAMBlockInterface" title="bal_xilinx.data_model.XilinxFdriRAMBlockInterface">XilinxFdriRAMBlockInterface</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxFdriPayload.get_io_block">
+<code class="sig-name descname">get_io_block</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxFdriPayload.get_io_block" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the data object for the IO block of the FDRI payload.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#bal_xilinx.data_model.XilinxFdriIOBlockInterface" title="bal_xilinx.data_model.XilinxFdriIOBlockInterface">XilinxFdriIOBlockInterface</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxFdriPayload.get_crc">
+<code class="sig-name descname">get_crc</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxFdriPayload.get_crc" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the data object for the CRC tail of the FDRI payload.
+:rtype: XilinxFdriCRCInterface</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxFdriPayload.set_logic_block">
+<code class="sig-name descname">set_logic_block</code><span class="sig-paren">(</span><em class="sig-param">logic_block</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxFdriPayload.set_logic_block" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxFdriPayload.set_ram_block">
+<code class="sig-name descname">set_ram_block</code><span class="sig-paren">(</span><em class="sig-param">bram_block</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxFdriPayload.set_ram_block" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxFdriPayload.set_io_block">
+<code class="sig-name descname">set_io_block</code><span class="sig-paren">(</span><em class="sig-param">iob_block</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxFdriPayload.set_io_block" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxFdriPayload.set_tail">
+<code class="sig-name descname">set_tail</code><span class="sig-paren">(</span><em class="sig-param">tail</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxFdriPayload.set_tail" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.data_model.XilinxType1PayloadAttribute">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.data_model.</code><code class="sig-name descname">XilinxType1PayloadAttribute</code><span class="sig-paren">(</span><em class="sig-param">value</em>, <em class="sig-param">value_name=None</em>, <em class="sig-param">value_description=None</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxType1PayloadAttribute" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.data_model.ValueModel</span></code></p>
+<p>An attibute of the payload of a type 1 packet in the Xilinx bitstream. It is parsed
+automatically using the Xilinx format configuration.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.data_model.XilinxType1Payload">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.data_model.</code><code class="sig-name descname">XilinxType1Payload</code><span class="sig-paren">(</span><em class="sig-param">attributes</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxType1Payload" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.data_model.DictModel</span></code></p>
+<p>The payload of a type 1 packet in the Xilinx bitstream. It is parsed automatically from using
+the Xilinx format configuration. It’s properties are not known until it is unpacked.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.data_model.XilinxPacketHeader">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.data_model.</code><code class="sig-name descname">XilinxPacketHeader</code><span class="sig-paren">(</span><em class="sig-param">packet_type</em>, <em class="sig-param">opcode</em>, <em class="sig-param">register_address</em>, <em class="sig-param">word_count</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxPacketHeader" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.data_model.ClassModel</span></code></p>
+<p>The header of a Xilinx register configuration packet. It contains the type of the packet (1
+or 2), the opcode (READ/WRITE/NOOP), the register address and the number of words in the
+payload.</p>
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxPacketHeader.get_packet_type">
+<code class="sig-name descname">get_packet_type</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxPacketHeader.get_packet_type" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>DataObject[ValueModel]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxPacketHeader.get_opcode">
+<code class="sig-name descname">get_opcode</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxPacketHeader.get_opcode" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>DataObject[ValueModel]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxPacketHeader.get_register_address">
+<code class="sig-name descname">get_register_address</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxPacketHeader.get_register_address" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>DataObject[ValueModel]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxPacketHeader.get_word_count">
+<code class="sig-name descname">get_word_count</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxPacketHeader.get_word_count" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>DataObject[ValueModel]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxPacketHeader.set_packet_type">
+<code class="sig-name descname">set_packet_type</code><span class="sig-paren">(</span><em class="sig-param">packet_type</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxPacketHeader.set_packet_type" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxPacketHeader.set_opcode">
+<code class="sig-name descname">set_opcode</code><span class="sig-paren">(</span><em class="sig-param">opcode</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxPacketHeader.set_opcode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxPacketHeader.set_register_address">
+<code class="sig-name descname">set_register_address</code><span class="sig-paren">(</span><em class="sig-param">register_address</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxPacketHeader.set_register_address" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxPacketHeader.set_word_count">
+<code class="sig-name descname">set_word_count</code><span class="sig-paren">(</span><em class="sig-param">word_count</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxPacketHeader.set_word_count" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.data_model.XilinxPacket">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.data_model.</code><code class="sig-name descname">XilinxPacket</code><span class="sig-paren">(</span><em class="sig-param">header</em>, <em class="sig-param">payload_size</em>, <em class="sig-param">payload</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxPacket" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.data_model.ClassModel</span></code></p>
+<p>A packet within a Xilinx bitstream. It contains a header and a payload.</p>
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxPacket.get_header">
+<code class="sig-name descname">get_header</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxPacket.get_header" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>DataObject[<a class="reference internal" href="#bal_xilinx.data_model.XilinxPacketHeader" title="bal_xilinx.data_model.XilinxPacketHeader">XilinxPacketHeader</a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxPacket.get_payload_size">
+<code class="sig-name descname">get_payload_size</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxPacket.get_payload_size" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>DataObject[ValueModel]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxPacket.get_payload">
+<code class="sig-name descname">get_payload</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxPacket.get_payload" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>DataObject</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxPacket.set_header">
+<code class="sig-name descname">set_header</code><span class="sig-paren">(</span><em class="sig-param">header</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxPacket.set_header" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxPacket.set_payload">
+<code class="sig-name descname">set_payload</code><span class="sig-paren">(</span><em class="sig-param">payload</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxPacket.set_payload" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.data_model.XilinxPacketsTail">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.data_model.</code><code class="sig-name descname">XilinxPacketsTail</code><a class="headerlink" href="#bal_xilinx.data_model.XilinxPacketsTail" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.data_model.DataModel</span></code></p>
+<p>The tail data for the packets. It cannot be detected by the XilinxBitstreamConverter so it
+must be handled as any other packet.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.data_model.XilinxPackets">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.data_model.</code><code class="sig-name descname">XilinxPackets</code><span class="sig-paren">(</span><em class="sig-param">items</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxPackets" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.data_model.ArrayModel</span></code></p>
+<p>An array of Xilinx register configuration packet.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.data_model.XilinxBitstreamHeaderInterface">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.data_model.</code><code class="sig-name descname">XilinxBitstreamHeaderInterface</code><a class="headerlink" href="#bal_xilinx.data_model.XilinxBitstreamHeaderInterface" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.data_model.DataModel</span></code></p>
+<p>The Xilinx bitstream header contains unknown information.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.data_model.XilinxBitstreamSyncMarker">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.data_model.</code><code class="sig-name descname">XilinxBitstreamSyncMarker</code><a class="headerlink" href="#bal_xilinx.data_model.XilinxBitstreamSyncMarker" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.data_model.DataModel</span></code></p>
+<p>The Xilinx bitstream sync marker</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.data_model.XilinxBitstream">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.data_model.</code><code class="sig-name descname">XilinxBitstream</code><span class="sig-paren">(</span><em class="sig-param">header</em>, <em class="sig-param">sync_marker</em>, <em class="sig-param">packets</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxBitstream" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">bal.data_model.ClassModel</span></code></p>
+<p>The root model for a Xilinx bitstream. It contains a header and packets data objects.</p>
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxBitstream.get_header">
+<code class="sig-name descname">get_header</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxBitstream.get_header" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>DataObject[<a class="reference internal" href="#bal_xilinx.data_model.XilinxBitstreamHeaderInterface" title="bal_xilinx.data_model.XilinxBitstreamHeaderInterface">XilinxBitstreamHeaderInterface</a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxBitstream.get_sync_marker">
+<code class="sig-name descname">get_sync_marker</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxBitstream.get_sync_marker" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>DataObject[<a class="reference internal" href="#bal_xilinx.data_model.XilinxBitstreamSyncMarker" title="bal_xilinx.data_model.XilinxBitstreamSyncMarker">XilinxBitstreamSyncMarker</a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxBitstream.get_packets">
+<code class="sig-name descname">get_packets</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxBitstream.get_packets" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>DataObject[<a class="reference internal" href="#bal_xilinx.data_model.XilinxPackets" title="bal_xilinx.data_model.XilinxPackets">XilinxPackets</a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxBitstream.get_packets_by_register_name">
+<code class="sig-name descname">get_packets_by_register_name</code><span class="sig-paren">(</span><em class="sig-param">register</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxBitstream.get_packets_by_register_name" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>register</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – </p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>List[<a class="reference internal" href="#bal_xilinx.data_model.XilinxPacket" title="bal_xilinx.data_model.XilinxPacket">XilinxPacket</a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxBitstream.set_header">
+<code class="sig-name descname">set_header</code><span class="sig-paren">(</span><em class="sig-param">header</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxBitstream.set_header" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>header</strong> (<em>DataObject</em>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.data_model.XilinxBitstream.set_packets">
+<code class="sig-name descname">set_packets</code><span class="sig-paren">(</span><em class="sig-param">packets</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.data_model.XilinxBitstream.set_packets" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-bal_xilinx.defaults">
+<span id="bal-xilinx-defaults"></span><h2>bal_xilinx.defaults<a class="headerlink" href="#module-bal_xilinx.defaults" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="bal_xilinx.defaults.register_defaults_context_converters">
+<code class="sig-prename descclassname">bal_xilinx.defaults.</code><code class="sig-name descname">register_defaults_context_converters</code><span class="sig-paren">(</span><em class="sig-param">context</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.defaults.register_defaults_context_converters" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bal_xilinx.defaults.register_defaults_context_analyzers">
+<code class="sig-prename descclassname">bal_xilinx.defaults.</code><code class="sig-name descname">register_defaults_context_analyzers</code><span class="sig-paren">(</span><em class="sig-param">context</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.defaults.register_defaults_context_analyzers" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bal_xilinx.defaults.register_defaults_context_modifiers">
+<code class="sig-prename descclassname">bal_xilinx.defaults.</code><code class="sig-name descname">register_defaults_context_modifiers</code><span class="sig-paren">(</span><em class="sig-param">context</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.defaults.register_defaults_context_modifiers" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bal_xilinx.defaults.default_xilinx_context">
+<code class="sig-prename descclassname">bal_xilinx.defaults.</code><code class="sig-name descname">default_xilinx_context</code><span class="sig-paren">(</span><em class="sig-param">context</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.defaults.default_xilinx_context" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="bal_xilinx.defaults.default_xilinx_formats">
+<code class="sig-prename descclassname">bal_xilinx.defaults.</code><code class="sig-name descname">default_xilinx_formats</code><span class="sig-paren">(</span><em class="sig-param">format_builder</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.defaults.default_xilinx_formats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load the default JSON config files for Xilinx fpgas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#bal_xilinx.format.XilinxFormatBuilder" title="bal_xilinx.format.XilinxFormatBuilder">XilinxFormatBuilder</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-bal_xilinx.format">
+<span id="bal-xilinx-format"></span><h2>bal_xilinx.format<a class="headerlink" href="#module-bal_xilinx.format" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="bal_xilinx.format.hex_to_bytes">
+<code class="sig-prename descclassname">bal_xilinx.format.</code><code class="sig-name descname">hex_to_bytes</code><span class="sig-paren">(</span><em class="sig-param">hex</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.hex_to_bytes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert a hex value to the bytes representation used by the interpreter.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>hex</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – </p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.7)">bytes</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.format.XilinxAttributeValueDocumentation">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.format.</code><code class="sig-name descname">XilinxAttributeValueDocumentation</code><span class="sig-paren">(</span><em class="sig-param">value</em>, <em class="sig-param">name</em>, <em class="sig-param">description</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxAttributeValueDocumentation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Defines the documentation for a specific value of a register attribute.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>value</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The attribute’s value.</p></li>
+<li><p><strong>name</strong> (<em>Optional</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a><em>]</em>) – The  name for the value of the attribute.</p></li>
+<li><p><strong>description</strong> (<em>Optional</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a><em>]</em>) – The description for the value of the attribute.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Variables</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>value</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The attribute’s value.</p></li>
+<li><p><strong>name</strong> (<em>Optional</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a><em>]</em>) – The  name for the value of the attribute.</p></li>
+<li><p><strong>description</strong> (<em>Optional</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a><em>]</em>) – The description for the value of the attribute.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.format.XilinxRegisterAttributeFormat">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.format.</code><code class="sig-name descname">XilinxRegisterAttributeFormat</code><span class="sig-paren">(</span><em class="sig-param">name</em>, <em class="sig-param">bit_size</em>, <em class="sig-param">description</em>, <em class="sig-param">values</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxRegisterAttributeFormat" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Defines the format/documentation of a register payload attribute.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – The name of the attribute.</p></li>
+<li><p><strong>bit_size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The size of the attribute value in bits.</p></li>
+<li><p><strong>description</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – A description of the attribute.</p></li>
+<li><p><strong>values</strong> (<em>List</em><em>[</em><a class="reference internal" href="#bal_xilinx.format.XilinxAttributeValueDocumentation" title="bal_xilinx.format.XilinxAttributeValueDocumentation"><em>XilinxAttributeValueDocumentation</em></a><em>]</em>) – The documentation for values
+of the attribute.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Variables</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – The name of the attribute.</p></li>
+<li><p><strong>bit_size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The size of the attribute value in bits.</p></li>
+<li><p><strong>description</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – A description of the attribute.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxRegisterAttributeFormat.get_value_documentation">
+<code class="sig-name descname">get_value_documentation</code><span class="sig-paren">(</span><em class="sig-param">value</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxRegisterAttributeFormat.get_value_documentation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the documentation for the provided value of the attribute</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>value</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The value of the register attribute</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>Optional[<a class="reference internal" href="#bal_xilinx.format.XilinxAttributeValueDocumentation" title="bal_xilinx.format.XilinxAttributeValueDocumentation">XilinxAttributeValueDocumentation</a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.format.XilinxRegisterFormatCtypeLE">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.format.</code><code class="sig-name descname">XilinxRegisterFormatCtypeLE</code><span class="sig-paren">(</span><em class="sig-param">raw_bytes</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxRegisterFormatCtypeLE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">_ctypes.Union</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.format.XilinxRegisterFormatCtype">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.format.</code><code class="sig-name descname">XilinxRegisterFormatCtype</code><span class="sig-paren">(</span><em class="sig-param">class_name</em>, <em class="sig-param">fields</em>, <em class="sig-param">values=None</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxRegisterFormatCtype" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxRegisterFormatCtype.get_bytes">
+<code class="sig-name descname">get_bytes</code><span class="sig-paren">(</span><em class="sig-param">*values</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxRegisterFormatCtype.get_bytes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxRegisterFormatCtype.from_buffer_copy">
+<code class="sig-name descname">from_buffer_copy</code><span class="sig-paren">(</span><em class="sig-param">raw_bytes</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxRegisterFormatCtype.from_buffer_copy" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.format.XilinxRegisterFormat">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.format.</code><code class="sig-name descname">XilinxRegisterFormat</code><span class="sig-paren">(</span><em class="sig-param">address</em>, <em class="sig-param">name</em>, <em class="sig-param">description</em>, <em class="sig-param">attributes</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxRegisterFormat" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Defines the format/documentation for a register packet.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>address</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The address of the register.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – The name of the register targeted by a packet.</p></li>
+<li><p><strong>description</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – A description of the register.</p></li>
+<li><p><strong>attributes</strong> (<em>List</em><em>[</em><a class="reference internal" href="#bal_xilinx.format.XilinxRegisterAttributeFormat" title="bal_xilinx.format.XilinxRegisterAttributeFormat"><em>XilinxRegisterAttributeFormat</em></a><em>]</em>) – The attributes to parse in
+a packet’s data.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Variables</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>address</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The address of the register.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – The name of the register targeted by a packet.</p></li>
+<li><p><strong>description</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – A description of the register.</p></li>
+<li><p><strong>attributes</strong> (<em>List</em><em>[</em><a class="reference internal" href="#bal_xilinx.format.XilinxRegisterAttributeFormat" title="bal_xilinx.format.XilinxRegisterAttributeFormat"><em>XilinxRegisterAttributeFormat</em></a><em>]</em>) – The attributes to parse in
+a packet’s data.</p></li>
+<li><p><strong>size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Ths aggregate bit size of the register payload attributes.</p></li>
+<li><p><strong>ctype</strong> (<em>ctype</em>) – A ctype class definition configured to match the register payload
+attributes.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.format.XilinxFdriMajorFormat">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.format.</code><code class="sig-name descname">XilinxFdriMajorFormat</code><span class="sig-paren">(</span><em class="sig-param">name</em>, <em class="sig-param">frame_size</em>, <em class="sig-param">frame_count</em>, <em class="sig-param">frame_descriptions</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFdriMajorFormat" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Defines the format for a specif major type.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – The name of the major.</p></li>
+<li><p><strong>frame_size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The size of a frame within the major.</p></li>
+<li><p><strong>frame_count</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The number of frames making up the major.</p></li>
+<li><p><strong>frame_descriptions</strong> (<em>List</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a><em>]</em>) – A description of each frame. The length of the list is
+expected to match the <cite>frame_count</cite> property.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Variables</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – The name of the major.</p></li>
+<li><p><strong>frame_size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The size of a frame within the major.</p></li>
+<li><p><strong>frame_count</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The number of frames making up the major.</p></li>
+<li><p><strong>frame_descriptions</strong> (<em>List</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a><em>]</em>) – A description of each frame. The length of the list is
+expected to match the <cite>frame_count</cite> property.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.format.XilinxFdriPinFormat">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.format.</code><code class="sig-name descname">XilinxFdriPinFormat</code><span class="sig-paren">(</span><em class="sig-param">name</em>, <em class="sig-param">offset</em>, <em class="sig-param">on_value</em>, <em class="sig-param">off_value</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFdriPinFormat" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Defines the format for a specif io pin.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – The name of the pin.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The offset of the pin.</p></li>
+<li><p><strong>on_value</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – The hex representation of the value to turn the pin on.</p></li>
+<li><p><strong>off_value</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – The hex representation of the value to turn the pin off.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Variables</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – The name of the pin.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The offset of the pin.</p></li>
+<li><p><strong>on_value</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.7)"><em>bytes</em></a>) – The hex representation of the value to turn the pin on.</p></li>
+<li><p><strong>off_value</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.7)"><em>bytes</em></a>) – The hex representation of the value to turn the pin off</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.format.XilinxFdriFormat">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.format.</code><code class="sig-name descname">XilinxFdriFormat</code><span class="sig-paren">(</span><em class="sig-param">device_name</em>, <em class="sig-param">logic_block_size</em>, <em class="sig-param">ram_block_size</em>, <em class="sig-param">io_block_size</em>, <em class="sig-param">crc_size</em>, <em class="sig-param">logic_block_format</em>, <em class="sig-param">io_block_format</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFdriFormat" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Defines the format of an FDRI register payload for a specific type of FPGA.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>device_name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – The name of the FPGA.</p></li>
+<li><p><strong>logic_block_size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The size of the logic block in bytes.</p></li>
+<li><p><strong>ram_block_size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The size of the ram block in bytes.</p></li>
+<li><p><strong>io_block_size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The size of the io block in bytes.</p></li>
+<li><p><strong>crc_size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The size of the CRC checksum in bytes.</p></li>
+<li><p><strong>logic_block_format</strong> (<em>Optional</em><em>[</em><em>List</em><em>[</em><em>List</em><em>[</em><a class="reference internal" href="#bal_xilinx.format.XilinxFdriMajorFormat" title="bal_xilinx.format.XilinxFdriMajorFormat"><em>XilinxFdriMajorFormat</em></a><em>]</em><em>]</em><em>Optional</em><em>[</em>) – A matrix of Major
+formats that are contained in the logic block..</p></li>
+<li><p><strong>io_block_format</strong> (<em>Optional</em><em>[</em><em>List</em><em>[</em><a class="reference internal" href="#bal_xilinx.format.XilinxFdriPinFormat" title="bal_xilinx.format.XilinxFdriPinFormat"><em>XilinxFdriPinFormat</em></a><em>]</em><em>]</em>) – A list of pin formats that are
+contained in the io block.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Variables</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>device_name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – The name of the FPGA.</p></li>
+<li><p><strong>logic_block_size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The size of the logic block in bytes.</p></li>
+<li><p><strong>ram_block_size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The size of the ram block in bytes.</p></li>
+<li><p><strong>io_block_size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The size of the io block in bytes.</p></li>
+<li><p><strong>crc_size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – The size of the CRC checksum in bytes.</p></li>
+<li><p><strong>logic_block_format</strong> (<em>Optional</em><em>[</em><em>List</em><em>[</em><em>List</em><em>[</em><a class="reference internal" href="#bal_xilinx.format.XilinxFdriMajorFormat" title="bal_xilinx.format.XilinxFdriMajorFormat"><em>XilinxFdriMajorFormat</em></a><em>]</em><em>]</em><em>Optional</em><em>[</em>) – A matrix of Major
+formats.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxFdriFormat.get_io_pin_by_name">
+<code class="sig-name descname">get_io_pin_by_name</code><span class="sig-paren">(</span><em class="sig-param">name</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFdriFormat.get_io_pin_by_name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve the IO pin format for the provided IO pin name.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – The name of the IO pin</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>XilinxFdriPinFormat|None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.format.XilinxFormat">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.format.</code><code class="sig-name descname">XilinxFormat</code><span class="sig-paren">(</span><em class="sig-param">registers</em>, <em class="sig-param">fdri_formats</em>, <em class="sig-param">visualizer_style</em>, <em class="sig-param">sync_word='AA995566'</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFormat" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Defines the format of the registers in a Xilinx bitstream. It contains indexes to look up
+register formats by name or address.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>registers</strong> (<em>List</em><em>[</em><a class="reference internal" href="#bal_xilinx.format.XilinxRegisterFormat" title="bal_xilinx.format.XilinxRegisterFormat"><em>XilinxRegisterFormat</em></a><em>]</em>) – The list of register formats.</p></li>
+<li><p><strong>fdri_formats</strong> (<em>List</em><em>[</em><a class="reference internal" href="#bal_xilinx.format.XilinxFdriFormat" title="bal_xilinx.format.XilinxFdriFormat"><em>XilinxFdriFormat</em></a><em>]</em>) – The list of FDRI packets formats targeting
+different types of FPGA.</p></li>
+<li><p><strong>visualizer_style</strong> (<em>Any</em>) – The style config for the visualizer frontend.</p></li>
+<li><p><strong>sync_word</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – The sync word that marks the beginning of the configuration data in hex
+format.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Variables</dt>
+<dd class="field-even"><p><strong>sync_word</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.7)"><em>bytes</em></a>) – The sync word that marks the beginning of the configuration data.</p>
+</dd>
+</dl>
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxFormat.get_fdri_format">
+<code class="sig-name descname">get_fdri_format</code><span class="sig-paren">(</span><em class="sig-param">device_name</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFormat.get_fdri_format" title="Permalink to this definition">¶</a></dt>
+<dd><p>Lookup the FDRI format for the provided device name
+:param str device_name: The name of the device
+:rtype: XilinxFdriFormat | None</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxFormat.get_register_format">
+<code class="sig-name descname">get_register_format</code><span class="sig-paren">(</span><em class="sig-param">address</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFormat.get_register_format" title="Permalink to this definition">¶</a></dt>
+<dd><p>Lookup a register format by its address
+:param int address: The register’s address
+:rtype: XilinxRegisterFormat | None</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxFormat.get_register_format_by_name">
+<code class="sig-name descname">get_register_format_by_name</code><span class="sig-paren">(</span><em class="sig-param">name</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFormat.get_register_format_by_name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Lookup a register format by its name
+:param str name: The register’s name
+:rtype: XilinxRegisterFormat | None</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bal_xilinx.format.XilinxFormatBuilder">
+<em class="property">class </em><code class="sig-prename descclassname">bal_xilinx.format.</code><code class="sig-name descname">XilinxFormatBuilder</code><a class="headerlink" href="#bal_xilinx.format.XilinxFormatBuilder" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxFormatBuilder.set_visualizer_config">
+<code class="sig-name descname">set_visualizer_config</code><span class="sig-paren">(</span><em class="sig-param">visualizer_config</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFormatBuilder.set_visualizer_config" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxFormatBuilder.add_fdri_logic_block_formats">
+<code class="sig-name descname">add_fdri_logic_block_formats</code><span class="sig-paren">(</span><em class="sig-param">logic_block_formats</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFormatBuilder.add_fdri_logic_block_formats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxFormatBuilder.add_fdri_io_block_formats">
+<code class="sig-name descname">add_fdri_io_block_formats</code><span class="sig-paren">(</span><em class="sig-param">io_block_formats</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFormatBuilder.add_fdri_io_block_formats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxFormatBuilder.add_register_formats">
+<code class="sig-name descname">add_register_formats</code><span class="sig-paren">(</span><em class="sig-param">register_formats</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFormatBuilder.add_register_formats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxFormatBuilder.add_fdri_formats">
+<code class="sig-name descname">add_fdri_formats</code><span class="sig-paren">(</span><em class="sig-param">fdri_formats</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFormatBuilder.add_fdri_formats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxFormatBuilder.add_fdri_major_formats">
+<code class="sig-name descname">add_fdri_major_formats</code><span class="sig-paren">(</span><em class="sig-param">major_formats</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFormatBuilder.add_fdri_major_formats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxFormatBuilder.set_visualizer_config_json">
+<code class="sig-name descname">set_visualizer_config_json</code><span class="sig-paren">(</span><em class="sig-param">path</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFormatBuilder.set_visualizer_config_json" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxFormatBuilder.add_fdri_logic_block_formats_json">
+<code class="sig-name descname">add_fdri_logic_block_formats_json</code><span class="sig-paren">(</span><em class="sig-param">path</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFormatBuilder.add_fdri_logic_block_formats_json" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxFormatBuilder.add_fdri_io_block_formats_json">
+<code class="sig-name descname">add_fdri_io_block_formats_json</code><span class="sig-paren">(</span><em class="sig-param">path</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFormatBuilder.add_fdri_io_block_formats_json" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxFormatBuilder.add_register_formats_json">
+<code class="sig-name descname">add_register_formats_json</code><span class="sig-paren">(</span><em class="sig-param">path</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFormatBuilder.add_register_formats_json" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxFormatBuilder.add_fdri_formats_json">
+<code class="sig-name descname">add_fdri_formats_json</code><span class="sig-paren">(</span><em class="sig-param">path</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFormatBuilder.add_fdri_formats_json" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxFormatBuilder.add_fdri_major_formats_json">
+<code class="sig-name descname">add_fdri_major_formats_json</code><span class="sig-paren">(</span><em class="sig-param">path</em><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFormatBuilder.add_fdri_major_formats_json" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bal_xilinx.format.XilinxFormatBuilder.build">
+<code class="sig-name descname">build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bal_xilinx.format.XilinxFormatBuilder.build" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="bal_xilinx.analyzers.html" class="btn btn-neutral float-right" title="bal_xilinx.analyzers" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to BAL Xilinx’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, RBS
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
