@@ -53,7 +53,7 @@ def default_xilinx_formats(format_builder):
 
     :rtype: XilinxFormatBuilder
     """
-    root_path = os.path.join(os.path.dirname(__file__), "../configs")
+    root_path = os.path.join(os.path.dirname(__file__), "configs")
     # Configure the register formats
     format_builder.add_register_formats_json(os.path.join(root_path, "xilinx_registers.json"))
     # Configure the FDRI major formats

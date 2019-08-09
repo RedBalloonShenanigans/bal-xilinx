@@ -20,9 +20,14 @@ The full api documentation is available [here](https://RedBalloonShenanigans.git
 
 ## Installation
 
-The  BAL Xilinx package requires the BAL package. 
-See the [installation instructions](https://github.com/ballon-rouge/bal).
-To install the BAL Xilinx package, run:
+The BAL Xilinx package can be installed from PyPi with the following command:
+```
+pip install bal-xilinx
+```
+
+The BAL Xilinx package can also be installed from the repository. It requires the BAL package. See the [installation instructions](https://github.com/ballon-rouge/bal).
+
+To install the BAL Xilinx package from source, run:
 
 ```
 git clone https://github.com/RedBalloonShenanigans/bal-xilinx.git
@@ -38,8 +43,7 @@ make html-docs
 
 ## Methodology
 
-The Xilinx converters rely heavily on format definitions contained in [./configs](./configs). 
-The methodology used to create these JSON files will be published shortly. 
+The Xilinx converters rely heavily on format definitions contained in [bal_xilinx/configs](bal_xilinx/configs). The methodology used to create these JSON files will be published shortly.
 
 ## Guide
 
