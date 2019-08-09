@@ -1,22 +1,10 @@
-bal\_xilinx.modifiers package
+bal\_xilinx.modifiers
 =============================
 
-Submodules
-----------
-
-bal\_xilinx.modifiers.pin\_modifier module
+bal\_xilinx.modifiers.pin\_modifier
 ------------------------------------------
 
 .. automodule:: bal_xilinx.modifiers.pin_modifier
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-Module contents
----------------
-
-.. automodule:: bal_xilinx.modifiers
    :members:
    :undoc-members:
    :show-inheritance:

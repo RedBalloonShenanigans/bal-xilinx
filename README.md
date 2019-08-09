@@ -41,6 +41,18 @@ pip install .[docs]
 make html-docs
 ```
 
+## Tools
+
+While this module is meant to be used as a dependency for another project, it currently offers a 
+single tool called `pin`. It turns on/off a given pin for an existing Xilinx FPGA bitstream. It is
+accessible by running:
+
+```python
+python -m bal_xilinx.tools.pin 
+``` 
+
+The documentation for the pin tool can be accessed by running it with the `-h` flag.
+
 ## Methodology
 
 The Xilinx converters rely heavily on format definitions contained in [bal_xilinx/configs](bal_xilinx/configs). The methodology used to create these JSON files will be published shortly.

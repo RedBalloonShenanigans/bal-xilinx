@@ -1,10 +1,7 @@
-bal\_xilinx.converters package
+bal\_xilinx.converters
 ==============================
 
-Submodules
-----------
-
-bal\_xilinx.converters.bitstream module
+bal\_xilinx.converters.bitstream
 ---------------------------------------
 
 .. automodule:: bal_xilinx.converters.bitstream
@@ -12,15 +9,7 @@ bal\_xilinx.converters.bitstream module
    :undoc-members:
    :show-inheritance:
 
-bal\_xilinx.converters.bitstream\_interface module
---------------------------------------------------
-
-.. automodule:: bal_xilinx.converters.bitstream_interface
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-bal\_xilinx.converters.bitstream\_packets module
+bal\_xilinx.converters.bitstream\_packets
 ------------------------------------------------
 
 .. automodule:: bal_xilinx.converters.bitstream_packets
@@ -28,7 +17,7 @@ bal\_xilinx.converters.bitstream\_packets module
    :undoc-members:
    :show-inheritance:
 
-bal\_xilinx.converters.bitstream\_packets\_1 module
+bal\_xilinx.converters.bitstream\_packets\_1
 ---------------------------------------------------
 
 .. automodule:: bal_xilinx.converters.bitstream_packets_1
@@ -36,7 +25,7 @@ bal\_xilinx.converters.bitstream\_packets\_1 module
    :undoc-members:
    :show-inheritance:
 
-bal\_xilinx.converters.bitstream\_packets\_2 module
+bal\_xilinx.converters.bitstream\_packets\_2
 ---------------------------------------------------
 
 .. automodule:: bal_xilinx.converters.bitstream_packets_2
@@ -44,7 +33,7 @@ bal\_xilinx.converters.bitstream\_packets\_2 module
    :undoc-members:
    :show-inheritance:
 
-bal\_xilinx.converters.bitstream\_packets\_fdri module
+bal\_xilinx.converters.bitstream\_packets\_fdri
 ------------------------------------------------------
 
 .. automodule:: bal_xilinx.converters.bitstream_packets_fdri
@@ -52,11 +41,3 @@ bal\_xilinx.converters.bitstream\_packets\_fdri module
    :undoc-members:
    :show-inheritance:
 
-
-Module contents
----------------
-
-.. automodule:: bal_xilinx.converters
-   :members:
-   :undoc-members:
-   :show-inheritance:
